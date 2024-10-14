@@ -118,7 +118,7 @@ fun ShowBreweryItem(brewery: Brewery, modifier: Modifier) {
     Box(
         modifier = modifier
             .fillMaxWidth()
-            .wrapContentSize()
+            .height(200.dp)
             .clip(RoundedCornerShape(20.dp))
             .background(MaterialTheme.colorScheme.inverseSurface)
             .padding(horizontal = 16.dp)
